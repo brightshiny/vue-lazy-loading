@@ -1,4 +1,4 @@
-import Reports from '../components/Reports';
+const Reports = () => import('../components/Reports');
 
 export default [
   {

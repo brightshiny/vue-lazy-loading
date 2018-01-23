@@ -2,7 +2,6 @@
 
 import Vue from 'vue';
 import Vuex from 'vuex';
-import reports from '@/modules/reports/store';
 
 Vue.use(Vuex);
 
@@ -21,9 +20,6 @@ const mutations = {
 const actions = {};
 
 const store = new Vuex.Store({
-  modules: {
-    reports,
-  },
   state,
   getters,
   mutations,

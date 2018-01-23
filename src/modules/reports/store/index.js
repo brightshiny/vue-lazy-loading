@@ -14,6 +14,8 @@ const mutations = {
 
 const actions = {};
 
+console.log('>>> loaded');
+
 export default {
   namespaced: true,
   state,
